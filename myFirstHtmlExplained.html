@@ -1,0 +1,52 @@
+
+<!-- DOCTYPEs are required for legacy reasons. 
+When omitted, browsers tend to use a different rendering mode that is incompatible with some specifications.
+This is not an html tag, The <!DOCTYPE> declaration is NOT case sensitive. <!doctype html>
+
+HTML5 standard-->
+<!DOCTYPE html>
+
+<!-- The HTML <html> element represents the root (top-level element) of an HTML document, 
+so it is also referred to as the root element. All other elements must be descendants of this element. -->
+<html lang="en">
+
+<!-- The HTML <head> element contains machine-readable information (metadata) about the document, 
+like its title, scripts, and style sheets. -->
+<head>
+
+  <!-- Universal Character Set + Transformation Format—8-bit) 
+  is a character encoding capable of encoding all possible characters 
+  (called code points) in Unicode. -->
+  <meta charset="UTF-8">
+
+  <!-- HTML5 introduced a method to let web designers take control over the viewport, through the <meta> tag. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- If you need to support IE9 or IE8, then I would recommend using this tag. 
+  If you only support the latest browsers (IE11 and/or Edge) then I would consider dropping this tag altogether. -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- load external css file/s -->
+  <link rel="stylesheet" href="">
+  
+  <!-- Set the title of the page, look at your browser tab! -->
+  <title>My awesome website</title>
+
+</head>
+
+<!-- body tag represent the content of the document -->
+<body>
+  
+  <!-- heading tag h1(big) => h6(small) -->
+  <h1>Hello World!</h1>
+  <!-- <h2>Hello World!</h2>
+  <h3>Hello World!</h3>
+  <h4>Hello World!</h4>
+  <h5>Hello World!</h5>
+  <h6>Hello World!</h6> -->
+
+  <button onclick="alert('heeei')"></button>
+
+</body>
+
+</html>
